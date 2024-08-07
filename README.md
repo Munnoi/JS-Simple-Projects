@@ -1,3 +1,2 @@
-# Demo
-
-Some Description!
+# JS
+some vanilla js projects I've made!!!
