@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top right, blue, red, orange, yellow);
+}
+
+.container {
+    background-color: darkcyan;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input {
+    width: 100%;
+    font-size: 17px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 6px;
+}
+
+.payment {
+    font-weight: 600;
+    font-size: 20px;
+}
