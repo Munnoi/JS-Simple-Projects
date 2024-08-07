@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Tangerine|Inconsolata');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Tangerine', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: pink;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    padding: 30px 50px;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    font-size: 30px;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: 'Inconsolata', serif;
+    background-image: url("images/tom.png");
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: pink;
+}
+
+.btn:active {
+    background-size: 105%;
+}
